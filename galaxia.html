@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>🌸 Feliz Cumpleaños Mamá 💖</title>
+<link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+<canvas id="galaxia"></canvas>
+
+<!-- FOTOS -->
+<div id="fotosContainer">
+  <div class="photo" data-radius="150" data-speed="1.0"><img src="images/photo1.jpg" data-phrase="Tu amor es el hilo invisible que me une a la vida. Eres mi estrella polar en la oscuridad."></div>
+  <div class="photo" data-radius="200" data-speed="0.9"><img src="images/photo2.jpg" data-phrase="Dicen que los ángeles viven en el cielo, pero yo tengo uno aquí en la Tierra, y la llamo Mamá."></div>
+  <div class="photo" data-radius="250" data-speed="0.8"><img src="images/photo3.jpg" data-phrase="El corazón de una madre es un abismo profundo en cuyo fondo siempre encontrarás perdón."></div>
+  <div class="photo" data-radius="300" data-speed="0.7"><img src="images/photo4.jpg" data-phrase="Mamá, gracias por ser mi ejemplo, mi fuerza y mi lugar seguro. Te amo más de lo que las palabras pueden decir."></div>
+  <div class="photo" data-radius="350" data-speed="0.6"><img src="images/photo5.jpg" data-phrase="En tus abrazos encontré mi primer hogar. Tu amor es el motor que impulsa mi vida."></div>
+  <div class="photo" data-radius="400" data-speed="0.5"><img src="images/photo6.jpg" data-phrase="Todo lo que soy, y espero ser, se lo debo a ti, madre. Eres mi mejor maestra y mi amiga incondicional."></div>
+  <div class="photo" data-radius="450" data-speed="0.45"><img src="images/photo7.jpg" data-phrase="No hay abrazo más cálido, ni voz más dulce que la tuya, mamá. Eres mi persona favorita en el mundo."></div>
+  <div class="photo" data-radius="500" data-speed="0.4"><img src="images/photo8.jpg" data-phrase="Mamá, eres mi todo, mi pilar. Has sido mi padre y mi madre, y quiero darte las gracias con toda mi alma por cada esfuerzo, cada lección y cada gota de amor. Gracias por ser mi universo."></div>
+  <div class="photo" data-radius="550" data-speed="0.35"><img src="images/photo9.jpg" data-phrase="Mamá, tus enseñanzas, tu cariño y tu amor me han hecho la persona que soy hoy. Gracias por guiar mi camino con tanta luz."></div>
+  <div class="photo" data-radius="600" data-speed="0.3"><img src="images/photo10.jpg" data-phrase="Mamá, has sembrado tanto en mi vida. Mi promesa es esta: te devolveré con creces todo lo que me has dado, en cuidados, en alegría y en todo el amor que mereces."></div>
+</div>
+
+<!-- TEXTO CENTRAL -->
+<div class="center">
+  <div class="title">💖 Feliz Cumpleaños Mamá 💖</div>
+  <div class="subtitle">Toca una estrella para abrir tu carta 🌟</div>
+</div>
+
+<!-- CARTA ELEGANTE -->
+<div class="letter" id="letter">
+  <div class="card" id="card">
+    <div class="card-text">Toca para abrir</div>
+  </div>
+</div>
+
+<!-- CARTA DESPLEGABLE -->
+<div class="letter-paper" id="letterPaper">
+  <button class="close-letter" id="closeLetter">×</button>
+  <div class="letter-content">
+    <div class="letter-header">Para mi querida Mamá</div>
+    <div class="letter-message" id="letterMessage"></div>
+    <div class="letter-signature">Con todo mi amor ❤️</div>
+  </div>
+</div>
+
+<!-- MODAL -->
+<div class="modal" id="modal">
+  <div class="modal-content">
+    <h3>💌 Con todo mi amor 💌</h3>
+    <p id="modalText">...</p>
+    <button class="close-btn" id="closeBtn">Cerrar</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
